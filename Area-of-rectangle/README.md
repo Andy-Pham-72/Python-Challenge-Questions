@@ -48,6 +48,10 @@ print("Cost of Rectangular field: Rs. {:,} ".format(r.calculate_cost()))
     Cost of Rectangular field: Rs. 38,400,000 
 
 ### NOTE:
+- Whenever, we call a **method** `def get_area(self)` (self as `parameter`) of the **object** (in this case `r` is the object). It will automatically, passes as the first argument along with other arguments of the method.
+- If there is no other arguments are provided. Only `self` is passed in the method `r.get_area()` :
+    - `r` is the instance of the class.
+    - When we call method `r.get_area()`, the instance/object `r` is passed as first argument in the place of `self`.
 - **"r"** is the representation of the object outside of the class.
 - **"self"** is the representation of the object inside  the class.
 
