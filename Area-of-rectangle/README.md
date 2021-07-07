@@ -36,16 +36,16 @@ class Rectangle:
 
 r = Rectangle(160, 120, 2000)
 
-print("Area of Rectangle: %s cm^2 " % (r.get_area()))
+print("Area of Rectangle: {:,} cm^2 ".format(r.get_area()))
 
 print("Perimeter of the Retangle: %s cm " % (r.get_perimeter()))
 
-print("Cost of Rectangular field: Rs. %s " % (r.calculate_cost()))
+print("Cost of Rectangular field: Rs. {:,} ".format(r.calculate_cost()))
 ```
 
-    Area of Rectangle: 19200 cm^2 
+    Area of Rectangle: 19,200 cm^2 
     Perimeter of the Retangle: 560 cm 
-    Cost of Rectangular field: Rs. 38400000 
+    Cost of Rectangular field: Rs. 38,400,000 
 
 
 ## Supplemental reading:
