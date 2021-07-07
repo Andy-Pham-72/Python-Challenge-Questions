@@ -47,6 +47,10 @@ print("Cost of Rectangular field: Rs. {:,} ".format(r.calculate_cost()))
     Perimeter of the Retangle: 560 cm 
     Cost of Rectangular field: Rs. 38,400,000 
 
+### NOTE:
+- **"r"** is the representation of the object outside of the class.
+- **"self"** is the representation of the object inside  the class.
+
 
 ## Supplemental reading:
 
