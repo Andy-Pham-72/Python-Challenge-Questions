@@ -78,7 +78,7 @@ class CommissionEmployee(SalaryEmployee):
         return fixed + self.commission
 ```
 
-![diagram.png](attachment:295d2b23-cc18-41f9-8026-5daf70d2de4f.png)
+![diagram](https://user-images.githubusercontent.com/70767722/125096987-a821a380-e0a3-11eb-85b7-c352ae6916f8.png)
 
 - The diagram shows the inheritance hierarchy of the classes. The derived classes implement the IPayrollCalculator interface, which is required by the PayrollSystem. The PayrollSystem.calculate_payroll() implementation requires that the employee objects passed contain an id, name, and calculate_payroll() implementation.
 
