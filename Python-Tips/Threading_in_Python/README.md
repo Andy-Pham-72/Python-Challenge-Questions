@@ -4,7 +4,7 @@ Using `Threading` when we want to significantly speed up a program. And this spe
 
 With the example below we can se the script doesn't do much on the CPU since it's just waiting around till the next function and at the end the script just finishes.
 
-![Screen Shot 2021-08-14 at 12.45.43 PM.png](attachment:ee5368e1-8ffd-40a4-815b-8d7de72d0be0.png)
+![Screen Shot 2021-08-14 at 12 45 43 PM](https://user-images.githubusercontent.com/70767722/129457559-03a2ab9b-1762-48e9-866c-4f87530cbac1.png)
 
 (Running the script with an order like this called running synchronously  which is a good sign that we can get benefits from `threading and concurrency` - CPU bound and i/o bound tasks).
 
@@ -44,7 +44,7 @@ When we want to see the benefits when our tasks are i/o bound which means we wil
 
 Below picture shows us when we use `threading` with our code
 
-![Screen Shot 2021-08-14 at 12.56.47 PM.png](attachment:4c889b96-3f7f-46f0-b9bb-3b855f1c758d.png)
+![Screen Shot 2021-07-20 at 5 30 04 PM](https://user-images.githubusercontent.com/70767722/129457560-01f83c4e-03c7-4cec-9366-0e75b6ba8787.png)
 
 we can see there is an overlapped execution between 2 function but we never run any of this code at the same time. It's just give us the illusion of running code in parallel. Therefore, we can see our script finishes sooner than in the first picture.
 
