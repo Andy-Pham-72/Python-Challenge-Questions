@@ -44,7 +44,7 @@ When we want to see the benefits when our tasks are i/o bound which means we wil
 
 Below picture shows us when we use `threading` with our code
 
-![Screen Shot 2021-07-20 at 5 30 04 PM](https://user-images.githubusercontent.com/70767722/129457560-01f83c4e-03c7-4cec-9366-0e75b6ba8787.png)
+<img width="665" alt="Screen Shot 2021-08-14 at 3 00 30 PM" src="https://user-images.githubusercontent.com/70767722/129457585-5fa83dd7-7cfb-459c-8ab9-d33beab7e5f5.png">
 
 we can see there is an overlapped execution between 2 function but we never run any of this code at the same time. It's just give us the illusion of running code in parallel. Therefore, we can see our script finishes sooner than in the first picture.
 
