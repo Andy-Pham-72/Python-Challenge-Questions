@@ -19,8 +19,10 @@ For complex numbers with non-zero real(A) and complex part(B), the output should
 `A + Bi`
 
 Replace the plus symbol (+) with a minus symbol (-) when B<0.
+
 For complex numbers with a zero complex part i.e. real numbers, the output should be:
 `A + 0.00i`
+
 For complex numbers where the real part is zero and the complex part(B) is non-zero, the output should be:
 `0.00 + Bi`
 
