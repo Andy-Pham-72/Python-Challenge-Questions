@@ -19,10 +19,12 @@ Output a single line consisting of the probability that at least one of the `K` 
 
 **NOTE:** the answer must be correct up to 3 decimal places.
 
-**Constraints**
+**Constraints:**
+
 1 =< N =< 10
 
 1 =< K =< 10
+
 All the letters in the list are lowercase English letters.
 
 **Sample Input**
