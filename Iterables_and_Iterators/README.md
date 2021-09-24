@@ -210,10 +210,11 @@ We have a sequence of N characters and M number(which is 2) of them are `a`. We 
     * If K = 2, we are selecting 2 elements. The probability of none of the 2 being `a` is the probability of the first element is not `a`: (1 - M/N) times the probability of the second element is not `a`: (1 - M / (N - 1)).
         * The Denominator is (N - 1) because the length of the sequence is (N-1) after taking out the first element while the number of `a`s remain the same.
      
-     => P = (1 - M/N) * (1 - M/(N-1))
+      => P = (1 - M/N) * (1 - M/(N-1))
 
     * If K = 3 then:
-     => P = (1 - M/N) * (1 - M/(N-1)) * (1 - M/(N-2))
+    
+      => P = (1 - M/N) * (1 - M/(N-1)) * (1 - M/(N-2))
     
     and so one.
 
