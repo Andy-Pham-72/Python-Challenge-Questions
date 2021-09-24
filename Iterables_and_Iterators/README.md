@@ -214,7 +214,10 @@ If K = 3 then
 P = (1 - M/N) * (1 - M/(N-1)) * (1 - M/(N-2))
 and so one
 
-Therefore using `reduce()` in this problem to compute their cumulative multiplication.
+The problem statement of this challenge is to calculate the probability of at least one `a` selected. Then the result is:
+**`1 - p`**
+
+P/s: Using `reduce()` in this problem to compute their cumulative multiplication.
 
 
 END.
