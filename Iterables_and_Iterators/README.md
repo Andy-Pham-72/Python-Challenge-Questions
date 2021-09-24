@@ -21,6 +21,7 @@ Output a single line consisting of the probability that at least one of the `K` 
 
 **Constraints**
 1 =< N =< 10
+
 1 =< K =< 10
 All the letters in the list are lowercase English letters.
 
