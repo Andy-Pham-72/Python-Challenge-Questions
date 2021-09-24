@@ -50,6 +50,7 @@ Hence, the answer is `5 / 6 = 0.8333`
 - [What is a Permutation? Learn the Permutation Formula](https://www.youtube.com/watch?v=oT64b5euTfs)
 - [Permutations and Combinations Tutorial](https://www.youtube.com/watch?v=XJnIdRXUi7A)
 
+
 # SOLUTION 1
 
 
@@ -85,7 +86,7 @@ print("{:.3}".format(len( list(F))/ len(C) ))
     0.833
 
 
-Let unpack the variables `L`, `K`, `C` in order to understand the explanation :
+Let unpack the variables `L`, `K`, `C` in order to understand the solution :
 
 
 ```python
@@ -218,6 +219,9 @@ The problem statement of this challenge is to calculate the probability of at le
 **`1 - p`**
 
 P/s: Using `reduce()` in this problem to compute their cumulative multiplication.
+
+## EXTRA: 
+[Supplemental reading with Permutations and Combinations problem examples link](https://courses.lumenlearning.com/finitemath1/chapter/probability-using-permutations-and-combinations/)
 
 
 END.
